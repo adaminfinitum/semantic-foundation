@@ -26,6 +26,12 @@
 	margin-bottom: rem-calc(32);
 }
 
+@media screen and (max-width: 600px) {
+    #wpadminbar {
+        position: fixed !important;
+    }
+}
+
 
 /**
  * 2.0 Typography
