@@ -18,7 +18,7 @@ function foundationpress_sidebar_widgets() {
       'before_widget' => '<article id="%1$s" class="large-4 columns widget %2$s">',
       'after_widget' => '</article>',
       'before_title' => '<h6>',
-      'after_title' => '</h6>'      
+      'after_title' => '</h6>'
   ));
 }
 
