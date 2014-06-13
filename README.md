@@ -53,6 +53,10 @@ Check for Foundation Updates? Run:
 
 ## TODO
 
+### Create Homepage Template
+
+* homepage widegt area
+
 ### WAI ARIA
 
 complete WAI ARIA roles and landmarks
