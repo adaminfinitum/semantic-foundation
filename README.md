@@ -57,7 +57,7 @@ Check for Foundation Updates? Run:
 
 complete WAI ARIA roles and landmarks
 
-#### Microdata
+### Microdata
 
 * meta information about the whole website to the sites header
 * meta information for blogposts
