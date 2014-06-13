@@ -28,5 +28,5 @@
 
 	</div>
 	<?php get_sidebar(); ?>
-</div><!-- .row -->
+</div>
 <?php get_footer(); ?>
