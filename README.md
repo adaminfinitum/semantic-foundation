@@ -50,3 +50,16 @@ Check for Foundation Updates? Run:
   * `bower_components/`: This is the source folder where all Foundation scripts are located. `foundation update` will check and update scripts in this folder
   * `js/`: jQuery, Modernizr and Foundation scripts are copied from `bower_components/` to this directory, where they are minified and concatinated and enqueued in WordPress
   * Please note that you must run `grunt` in your terminal for the scripts to be copied. See [Gruntfile.js](https://github.com/lichtand/semantic-foundation/blob/master/Gruntfile.js) for details
+
+## TODO
+
+### WAI ARIA
+
+complete WAI ARIA roles and landmarks
+
+#### Microdata
+
+* meta information about the whole website to the sites header
+* meta information for blogposts
+
+### Theme Settings/options Page
