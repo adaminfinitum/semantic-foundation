@@ -1,7 +1,7 @@
 <?php
 function FoundationPress_theme_support() {
     // Add language support
-    load_theme_textdomain('FoundationPress', get_template_directory() . '/languages');
+    load_theme_textdomain('semantic-foundation', get_template_directory() . '/languages');
 
     // Add menu support
     add_theme_support('menus');

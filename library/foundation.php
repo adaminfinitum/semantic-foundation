@@ -37,11 +37,11 @@ function FoundationPress_pagination() {
 function FoundationPress_menu_fallback() {
 	echo '<div class="alert-box secondary">';
 	// Translators 1: Link to Menus, 2: Link to Customize
-  	printf( __( 'Please assign a menu to the primary menu location under %1$s or %2$s the design.', 'FoundationPress' ),
-  		sprintf(  __( '<a href="%s">Menus</a>', 'FoundationPress' ),
+  	printf( __( 'Please assign a menu to the primary menu location under %1$s or %2$s the design.', 'semantic-foundation' ),
+  		sprintf(  __( '<a href="%s">Menus</a>', 'semantic-foundation' ),
   			get_admin_url( get_current_blog_id(), 'nav-menus.php' )
   		),
-  		sprintf(  __( '<a href="%s">Customize</a>', 'FoundationPress' ),
+  		sprintf(  __( '<a href="%s">Customize</a>', 'semantic-foundation' ),
   			get_admin_url( get_current_blog_id(), 'customize.php' )
   		)
   	);

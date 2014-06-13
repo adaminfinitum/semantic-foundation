@@ -68,5 +68,5 @@
             </nav>
         </div>
 
-<section class="container" role="document">
+<section id="main-content" class="container" role="document">
   <?php do_action('foundationPress_after_header'); ?>
