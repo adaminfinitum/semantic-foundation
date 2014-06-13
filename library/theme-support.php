@@ -1,5 +1,5 @@
 <?php
-function FoundationPress_theme_support() {
+function semantic_foundation_theme_support() {
     // Add language support
     load_theme_textdomain('semantic-foundation', get_template_directory() . '/languages');
 
@@ -18,5 +18,5 @@ function FoundationPress_theme_support() {
 
 }
 
-add_action('after_setup_theme', 'FoundationPress_theme_support');
+add_action('after_setup_theme', 'semantic_foundation_theme_support');
 ?>

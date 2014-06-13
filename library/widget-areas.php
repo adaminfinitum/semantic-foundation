@@ -1,6 +1,6 @@
 <?php
 
-function foundationpress_sidebar_widgets() {
+function semantic_foundation_sidebar_widgets() {
   register_sidebar(array(
       'id' => 'sidebar-widgets',
       'name' => __('Sidebar widgets', 'semantic-foundation'),
@@ -22,7 +22,7 @@ function foundationpress_sidebar_widgets() {
   ));
 }
 
-add_action( 'widgets_init', 'foundationpress_sidebar_widgets' );
+add_action( 'widgets_init', 'semantic_foundation_sidebar_widgets' );
 
 // This code anbles Shortcodes in WordPress Text Widget
 add_filter('widget_text', 'do_shortcode');

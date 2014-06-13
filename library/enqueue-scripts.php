@@ -1,7 +1,7 @@
 <?php
 
-if (!function_exists('FoundationPress_scripts')) :
-  function FoundationPress_scripts() {
+if (!function_exists('semantic_foundation_scripts')) :
+  function semantic_foundation_scripts() {
 
     // deregister the jquery version bundled with wordpress
     wp_deregister_script( 'jquery' );
@@ -18,7 +18,7 @@ if (!function_exists('FoundationPress_scripts')) :
 
   }
 
-  add_action( 'wp_enqueue_scripts', 'FoundationPress_scripts' );
+  add_action( 'wp_enqueue_scripts', 'semantic_foundation_scripts' );
 endif;
 
 function kitchensink_scripts() {

@@ -2,8 +2,8 @@
 /**
  * The template for displaying a "No posts found" message
  *
- * @subpackage FoundationPress
- * @since FoundationPress 1.0
+ * @subpackage SemanticFoundation
+ * @since SemanticFoundation 1.0
  */
 ?>
 

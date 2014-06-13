@@ -1,4 +1,4 @@
-<?php function FoundationPress_comments($comment, $args, $depth) {
+<?php function semantic_foundation_comments($comment, $args, $depth) {
 	$GLOBALS['comment'] = $comment; ?>
 	<li <?php comment_class(); ?>>
 		<article id="comment-<?php comment_ID(); ?>">
@@ -45,7 +45,7 @@
 	<section id="comments">
 		<h3><?php comments_number(__('No Responses to', 'semantic-foundation'), __('One Response to', 'semantic-foundation'), __('% Responses to', 'semantic-foundation') ); ?> &#8220;<?php the_title(); ?>&#8221;</h3>
 		<ol class="commentlist">
-		<?php wp_list_comments('type=comment&callback=FoundationPress_comments'); ?>
+		<?php wp_list_comments('type=comment&callback=semantic_foundation_comments'); ?>
 
 		</ol>
 		<footer>
