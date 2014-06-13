@@ -32,41 +32,41 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-  <?php do_action('semantic_foundation_after_body'); ?>
+    <?php do_action('semantic_foundation_after_body'); ?>
 
-  <div class="off-canvas-wrap">
-  <div class="inner-wrap">
+    <div class="off-canvas-wrap">
+      <div class="inner-wrap">
 
-  <?php do_action('semantic_foundation_layout_start'); ?>
+      <?php do_action('semantic_foundation_layout_start'); ?>
 
-  <nav class="tab-bar show-for-small-only">
-    <section class="left-small">
-      <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-    </section>
-    <section class="middle tab-bar-section">
+      <nav class="tab-bar show-for-small-only">
+        <section class="left-small">
+          <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+        </section>
+        <section class="middle tab-bar-section">
 
-      <h1 class="title"><?php bloginfo( 'name' ); ?></h1>
+          <h1 class="title"><?php bloginfo( 'name' ); ?></h1>
 
-    </section>
-  </nav>
+        </section>
+      </nav>
 
-  <aside class="left-off-canvas-menu">
-    <?php semantic_foundation_mobile_off_canvas(); ?>
-  </aside>
+      <aside class="left-off-canvas-menu">
+        <?php semantic_foundation_mobile_off_canvas(); ?>
+      </aside>
 
-        <div class="top-bar-container contain-to-grid show-for-medium-up">
-            <nav class="top-bar" data-topbar="">
-                <ul class="title-area">
-                    <li class="name">
-                        <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-                    </li>
-                </ul>
-                <section class="top-bar-section">
-                    <?php semantic_foundation_top_bar_l(); ?>
-                    <?php semantic_foundation_top_bar_r(); ?>
-                </section>
-            </nav>
-        </div>
+            <div class="top-bar-container contain-to-grid show-for-medium-up">
+                <nav class="top-bar" data-topbar="">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+                        </li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <?php semantic_foundation_top_bar_l(); ?>
+                        <?php semantic_foundation_top_bar_r(); ?>
+                    </section>
+                </nav>
+            </div>
 
-<section id="main-content" class="container" role="document">
-  <?php do_action('semantic_foundation_after_header'); ?>
+    <section id="content" class="container" role="document">
+      <?php do_action('semantic_foundation_after_header'); ?>
