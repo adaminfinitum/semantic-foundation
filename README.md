@@ -24,7 +24,10 @@ While you're working on your project, run:
 
 `grunt`
 
-And you're set!
+Grunt will automatically watch your files
+
+* compile sass files to css
+* minify your assets (css, js)
 
 Check for Foundation Updates? Run:
 `foundation update`
