@@ -14,9 +14,9 @@
 	</header>
 	<div class="entry-content">
 		<?php the_content(__('Continue reading...', 'semantic-foundation')); ?>
-	</div>
+	</div><!-- .entry-content -->
 	<footer>
 		<?php $tag = get_the_tags(); if (!$tag) { } else { ?><p><?php the_tags(); ?></p><?php } ?>
 	</footer>
 	<hr />
-</article>
+</article><!-- #post -->

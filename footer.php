@@ -1,4 +1,4 @@
-			</section><!-- /main-content -->
+			</section><!-- #content -->
 			<footer class="row">
 				<?php do_action('semantic_foundation_before_footer'); ?>
 				<?php dynamic_sidebar("footer-widgets"); ?>
@@ -7,8 +7,8 @@
 			<a class="exit-off-canvas"></a>
 
 		  <?php do_action('semantic_foundation_layout_end'); ?>
-		  </div>
-		</div>
+		  </div><!-- .inner-wrap -->
+		</div><!-- .off-canvas-wrap -->
 		<?php wp_footer(); ?>
 		<?php do_action('semantic_foundation_before_closing_body'); ?>
 	</body>
