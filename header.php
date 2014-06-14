@@ -34,7 +34,7 @@
   <body <?php body_class(); ?>>
     <?php do_action('semantic_foundation_after_body'); ?>
 
-    <div class="off-canvas-wrap">
+    <div class="off-canvas-wrap" data-offcanvas>
       <div class="inner-wrap">
 
       <?php do_action('semantic_foundation_layout_start'); ?>
