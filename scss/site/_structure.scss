@@ -83,7 +83,7 @@ body {
 
 	#content-main article {
 		@include panel;
-		background: url('../assets/img/pattern-subtile-white-distorted.png');
+		background: #fafafa url('../assets/img/pattern-subtile-white-distorted.png') repeat;
 	}
 
 	#content .main {
