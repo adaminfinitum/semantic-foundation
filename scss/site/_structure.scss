@@ -58,7 +58,6 @@
 		@include grid-row();
   	#banner {
     	@include grid-column(12);
-			padding: 0;
   	}
 	}
 /**
