@@ -39,6 +39,12 @@
 
       <?php do_action('semantic_foundation_layout_start'); ?>
 
+      <header id="site-header">
+          <a href="<?php bloginfo('url') ?>" title="<?php bloginfo('name') ?>">
+            <img id="banner" alt="Banner" data-interchange="[<?php echo get_template_directory_uri(); ?>/assets/img/site-header-small.png, (default)], [<?php echo get_template_directory_uri(); ?>/assets/img/site-header-medium.png, (large)]">
+          </a>
+      </header>
+
       <nav class="tab-bar show-for-small-only">
         <section class="left-small">
           <a class="left-off-canvas-toggle menu-icon" ><span></span></a>

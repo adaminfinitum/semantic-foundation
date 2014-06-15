@@ -3,7 +3,10 @@
  *
  * 1.0 - Custom settings
  * 2.0 - Typography
- * 3.0 - Header, sidebar and footer
+ * 3.0 - Layout
+ *  3.1 - Header
+ *  3.2 - Sidebar
+ *  3.3 - Footer
  * 4.0 - Content
  *	4.1 - Pages
  *	4.2 - Posts
@@ -26,6 +29,7 @@
 	margin-bottom: rem-calc(32);
 }
 
+// Fixing wpadminbar overlapping navigation when width <601px
 @media screen and (max-width: 600px) {
     #wpadminbar {
         position: fixed !important;
@@ -42,18 +46,44 @@
 
 
 /**
- * 3.0 Header, sidebar and footer
+ * 3.0 Layout
  * ----------------------------------------------------------------------------
  */
 
-// Insert styles here
+/**
+	 * 3.1 Header
+	 * ------------------------------------
+	 */
+	#site-header {
+		@include grid-row();
+  	#banner {
+    	@include grid-column(12);
+			padding: 0;
+  	}
+	}
+/**
+	 * 3.2 Sidebar
+	 * ------------------------------------
+	 */
 
+/**
+	 * 3.3 Footer
+	 * ------------------------------------
+	 */
 
 /**
  * 4.0 Content
  * ----------------------------------------------------------------------------
  */
 
+	article {
+		padding: $column-gutter;
+		background: url('../assets/img/pattern-subtile-white-distorted.png');
+	}
+
+	#content .main {
+		padding-left: 0px;
+	}
 
 	/**
 	 * 4.1 Pages
