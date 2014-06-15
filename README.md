@@ -2,6 +2,12 @@
 
 A semantic Wordpress Theme based on ZURBs Foundation 5
 
+## Features
+
+* foundation 5
+* translation-ready
+* ...
+
 ## Requirements
 
 *You'll need to have the following items installed before continuing.*
