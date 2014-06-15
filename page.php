@@ -21,12 +21,12 @@
 			<?php do_action('semantic_foundation_page_before_comments'); ?>
 			<?php comments_template(); ?>
 			<?php do_action('semantic_foundation_page_after_comments'); ?>
-		</article>
+		</article><!-- .post -->
 	<?php endwhile;?>
 
 	<?php do_action('semantic_foundation_after_content'); ?>
 
-	</div>
+	</div><!-- #main-content -->
 	<?php get_sidebar(); ?>
 </div><!-- .row -->
 <?php get_footer(); ?>
