@@ -39,12 +39,6 @@
 
       <?php do_action('semantic_foundation_layout_start'); ?>
 
-      <header id="site-header">
-          <a href="<?php bloginfo('url') ?>" title="<?php bloginfo('name') ?>">
-            <img id="banner" alt="Banner" data-interchange="[<?php echo get_template_directory_uri(); ?>/assets/img/site-header-small.png, (default)], [<?php echo get_template_directory_uri(); ?>/assets/img/site-header-medium.png, (large)]">
-          </a>
-      </header>
-
       <nav class="tab-bar show-for-small-only">
         <section class="left-small">
           <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
@@ -60,19 +54,25 @@
         <?php semantic_foundation_mobile_off_canvas(); ?>
       </aside>
 
-            <div class="top-bar-container contain-to-grid show-for-medium-up">
-                <nav class="top-bar" data-topbar="">
-                    <ul class="title-area">
-                        <li class="name">
-                            <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-                        </li>
-                    </ul>
-                    <section class="top-bar-section">
-                        <?php semantic_foundation_top_bar_l(); ?>
-                        <?php semantic_foundation_top_bar_r(); ?>
-                    </section>
-                </nav>
-            </div>
+      <div class="top-bar-container contain-to-grid show-for-medium-up">
+          <nav class="top-bar" data-topbar="">
+              <ul class="title-area">
+                  <li class="name">
+                      <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+                  </li>
+              </ul>
+              <section class="top-bar-section">
+                  <?php semantic_foundation_top_bar_l(); ?>
+                  <?php semantic_foundation_top_bar_r(); ?>
+              </section>
+          </nav>
+      </div>
+
+      <header id="site-header" role="banner">
+          <a href="<?php bloginfo('url') ?>" title="<?php bloginfo('name') ?>">
+            <img id="banner" alt="Banner" data-interchange="[<?php echo get_template_directory_uri(); ?>/assets/img/site-header-small.png, (default)], [<?php echo get_template_directory_uri(); ?>/assets/img/site-header-medium.png, (large)]">
+          </a>
+      </header>
 
     <section id="content" class="container" role="document">
       <?php do_action('semantic_foundation_after_header'); ?>

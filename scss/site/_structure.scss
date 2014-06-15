@@ -64,6 +64,7 @@ body {
     	@include grid-column(12);
 			padding: 0;
   	}
+  	margin-bottom: rem-calc(32);
 	}
 /**
 	 * 3.2 Sidebar
