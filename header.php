@@ -74,5 +74,5 @@
           </a>
       </header>
 
-    <section id="content" class="container" role="document">
+    <section id="content" role="document">
       <?php do_action('semantic_foundation_after_header'); ?>
