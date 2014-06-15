@@ -1,2 +1,71 @@
+# =========================
+# Application Files
+# =========================
+
+# Sublime Text
+# =========================
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+#sftp configuration file
+sftp-config.json
+
+# Image Sourcefiles
+# =========================
+
+*.psd
+*.ai
+
+
+
+# =========================
+# Operating System Files
+# =========================
+
+# WINDOWS
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
 .DS_Store
 node_modules/
+
+# Ignore js folder since it kill the commit in githuib for windows
+js/jquery-placeholder/
