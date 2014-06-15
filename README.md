@@ -4,9 +4,13 @@ A semantic Wordpress Theme based on ZURBs Foundation 5
 
 ## Features
 
-* foundation 5
+* mobile first
+* responsive
+* sass
+* stricly following wordpress coding standards
+* extensive inline-documentation
 * translation-ready
-* ...
+* wai-aria landmarks
 
 ## Requirements
 
